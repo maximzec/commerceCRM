@@ -29,7 +29,7 @@ public:
         std::cout << "Enter the name and price of product: " ;
         std::cin >> name >> price;
         Product product = Product(name , price);
-        order.(std::make_pair(count , product));
+        ///order.(std::make_pair(count , product));
     }
 
     int getUniq_key() const {

@@ -9,6 +9,11 @@
 
 class OrderMenu : public Menu
 {
+public:
+    OrderMenu():Menu()
+    {
+        this->type = "order";
+    }
     void printMenu() override
     {
         std::cout << "-----------------------------------------------------------\n";

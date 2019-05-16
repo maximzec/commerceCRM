@@ -8,8 +8,13 @@
 #include "Menu.h"
 
 
-class MainMenu : public Menu
-{
+class MainMenu : public Menu {
+public:
+
+    MainMenu():Menu()
+    {
+       this->type = "main";
+    }
     void printMenu() override
     {
         std::cout << "-----------------------------------------------------------\n";
